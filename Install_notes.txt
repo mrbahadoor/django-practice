@@ -1,0 +1,20 @@
+1. list package by pip
+pip freeze
+
+2. Install env
+pip install virtualenv
+
+3. Create env
+python -m venv myenv
+
+4. Activate env
+source myenv/Scripts/activate
+
+5. Install django
+pip install django
+
+6. Create django project
+django-admin startproject mysite .
+
+7. Run django server
+python manage.py runserver
